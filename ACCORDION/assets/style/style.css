@@ -1,0 +1,37 @@
+* {
+  padding: 0 auto;
+  box-sizing: border-box;
+  background-color: #000000;
+  padding-top: 40px;
+}
+
+.accordion {
+  border: 2px ridge #151414;
+  padding: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(249 157 157 / 81%) 0%,
+    rgb(255 226 229) 43%,
+    rgb(224 16 16) 100%
+  );
+  color: rgb(41 2 35);
+  font-weight: bold;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion:hover {
+  color: rgb(33, 16, 107);
+}
+
+.content {
+  color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 2px;
+  font-weight: bold;
+  margin-left: 550px;
+}
